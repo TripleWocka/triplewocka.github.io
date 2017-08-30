@@ -25,6 +25,7 @@ My Custom Override CSS
     font-size: 20px;
     color: white;
     padding: 20px, 0;
+    text-align: center;
 
    
 }
@@ -38,11 +39,13 @@ My Custom Override CSS
 
 .links-custom > .nav-active >a{
     
+    
     background-color:red;
     color:black;
     
     
 }
+
 
 .nav-active >a:active, a:hover{
     
@@ -111,5 +114,21 @@ My Custom Override CSS
 .nav{
     
      width:100%;
+    
+}
+
+@media (min-width: 768px) {
+    
+    .nav >li{
+    width: 146px;
+    
+    
+}
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    
+    background-color: red;
+    color:black;
+    
     
 }
