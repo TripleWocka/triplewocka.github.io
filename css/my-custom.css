@@ -15,6 +15,7 @@ My Custom Override CSS
 .navbar-custom{
     
     font-size: 15px;
+   
     
     
 }
@@ -94,5 +95,21 @@ My Custom Override CSS
     font-size: 15px;
     color:white;
     
+    
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+   width: 146px;
+      
+      
+      
+      
+      
+    }
+}
+.nav{
+    
+     width:100%;
     
 }
