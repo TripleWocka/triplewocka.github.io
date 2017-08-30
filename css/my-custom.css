@@ -21,6 +21,11 @@ My Custom Override CSS
 }
 
 .links-custom{
+    
+
+    font-family: 'Baloo Bhaijaan', cursive;
+
+
     background-color: black;
     font-size: 20px;
     color: white;
@@ -76,7 +81,8 @@ My Custom Override CSS
 .table-title{
     
     
-    font-style: oblique;
+
+    font-family: 'Baloo Bhaijaan', cursive;
     color: red;
     
     font-size:25px;
@@ -93,8 +99,12 @@ My Custom Override CSS
 }
 
 .table-info{
+    
+    font-family: 'Montserrat', sans-serif;
+
+
     background-color: black;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
     color:white;
     
@@ -130,5 +140,15 @@ My Custom Override CSS
     background-color: red;
     color:black;
     
+    
+}
+
+.under-title{
+    
+    font-size:50px;
+    text-align:center;
+    font-family: 'Baloo Bhaijaan', cursive;
+    text-decoration: underline;
+    text-decoration-style: wavy;
     
 }
